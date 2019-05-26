@@ -1,10 +1,2 @@
 
-this is a test
-
-this is a test too
-
-sdfsdf
-
-fssdds
-
-Hello there 
+Remove all the test
