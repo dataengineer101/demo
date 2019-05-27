@@ -16,9 +16,4 @@ with open(filename) as file_object:
 
     print(x)
 
-    This is new code here
-
-ghghgfgh fffggddd
-
-fggf
-f
+    git stash
