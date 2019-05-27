@@ -19,3 +19,5 @@ with open(filename) as file_object:
     This is new code here
 
 ghghgfgh fffggddd
+
+fggf
