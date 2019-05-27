@@ -21,3 +21,4 @@ with open(filename) as file_object:
 ghghgfgh fffggddd
 
 fggf
+f
