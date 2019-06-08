@@ -1,26 +1,7 @@
-# filename = r"C:\Users\mark\PycharmProjects\demo_new\data.csv"
-# with open(filename) as file_object:
-#    for line in file_object:
-#     # print(line)
-#     # print(line.strip('\n'))
-#     # print(line.split(","))
-#     # print(line.strip().split(","))
-#
-#     # line = line.replace(',\n', '')
-#     # print(line)
-#
-#     x = line.splitlines()
-#     # x = line.replace('\r\n', '')
-#     # x = x.replace("\r", "")
-#     # x = x.replace("\n", "")
-#
-#     print(x)
-#
-#     git stash
+''' Short demo to demonstrate file handling, data wrangling & plots '''
+
 import pandas as pd
 import matplotlib.pyplot as plt
-
-# url2 = 'https://s3.amazonaws.com/assets.datacamp.com/production/course_1273/datasets/df2.csv'
 
 filename = r"C:\Users\mark\PycharmProjects\demo_new\data.csv"
 df = pd.read_csv(filename, sep = ',')
@@ -50,13 +31,6 @@ df.to_csv(r"C:\Users\mark\PycharmProjects\demo_new\data_cleaned.csv", encoding="
 
 
 
-# # Print out df2_tidy
-# print(df2_melted)
-#
-#
 
-#
-
-#
 
 
