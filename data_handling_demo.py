@@ -6,14 +6,16 @@ import matplotlib.pyplot as plt
 filename = r"C:\Users\mark\PycharmProjects\demo_new\data.csv"
 df = pd.read_csv(filename, sep = ',')
 
+# print out the full contents of thee df using to_string
 # print(df.to_string())
 
-df.dropna(how='all', inplace=True)    # drop if all values in the row are nan
+# drop if all values in the row are nan
+df.dropna(how='all', inplace=True)
 
-# # rename columns
+# rename column month to month_year
 df.rename(columns = {"Month":'Month_Year'}, inplace=True)
-#
-# # Similarly, to get rid of trailing whitespace:
+
+# drop the notes column
 df = df.drop('Notes',1)
 
 df['Month_Year'] = df['Month_Year'].replace(['Mar-19 (r)'], 'Mar-19')
