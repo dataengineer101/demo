@@ -1,2 +1,6 @@
-# demo
-Repo to demo some Python concepts
+# Code Repo
+
+
+## Python
+[data wrangling demo](./Python/data_wrangling) - demo showing how to load, clean & plot data
+
